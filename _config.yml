@@ -59,7 +59,9 @@ include: null
 exclude: null
 ignore: null
 theme: vivia
-deploy:
-  type: ''
 archive_generator:
   per_page: 0
+deploy:
+  type: git
+  repo: https://github.com/WindChime-Echo/WindChime-Echo.github.io.git
+  branch: gh-pages
