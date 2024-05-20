@@ -1,9 +1,9 @@
-title: Hexo
+title: EchoBlog
 subtitle: ''
 description: ''
 keywords: null
-author: John Doe
-language: en
+author: 风铃Echo
+language: zh-cn
 timezone: ''
 url: http://example.com
 permalink: ':year/:month/:day/:title/'
@@ -61,6 +61,9 @@ ignore: null
 theme: vivia
 archive_generator:
   per_page: 0
+inject:    # 自定义css
+  head:
+    - <link rel="stylesheet" href="/css/index.css">
 deploy:
   type: git
   repo: https://github.com/WindChime-Echo/WindChime-Echo.github.io.git
