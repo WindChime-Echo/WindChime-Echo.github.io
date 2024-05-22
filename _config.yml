@@ -61,7 +61,11 @@ ignore: null
 theme: vivia
 archive_generator:
   per_page: 0
-inject:    # 自定义css
+mathjax:
+  # 添加Latex支持
+  tags: ams
+inject: 
+  # 自定义css   
   head:
     - <link rel="stylesheet" href="/css/index.css">
 deploy:
